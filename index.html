@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/2780e15db7.js" crossorigin="anonymous"></script>
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <section class="game">
+        <h1 class="title">Rock Pauper Ceasar</h1>
+
+        <div class="top">
+            <div class="t-left">
+                <i class="fa-solid fa-star" id="winStar1"></i>
+                <i class="fa-solid fa-star" id="winStar2"></i>
+                <i class="fa-solid fa-star" id="winStar3"></i>
+            </div>
+            <div class="t-center">
+                <h3>Win: <span class="win">0</span></h3>
+                <h3>Loss: <span class="lose">0</span></h3>
+            </div>
+            <div class="t-right">
+                <i class="fa-solid fa-star" id="loseStar1"></i>
+                <i class="fa-solid fa-star" id="loseStar2"></i>
+                <i class="fa-solid fa-star" id="loseStar3"></i>
+            </div>
+        </div>
+        <div class="h-center">
+            <div class="left" id="playerChoice">
+                <span>You</span>
+            </div>
+            <div class="right" id="computerChoice">
+                <span>Computer</span>
+            </div>
+        </div>
+        <h1 id="result" class="result"></h1>
+        <div class="bottom">
+            <div class="choices">
+                <img id="rockBtn" src="assets/images/rock-lee.png" alt="">
+                <img id="paperBtn" src="assets/images/pauper.png" alt="">
+                <img id="scissorBtn" src="assets/images/ceaser.png" alt="">
+            </div>
+        </div>
+
+    </section>
+    <section class="history">
+        <div class="match-history">
+            <h1>MATCH HISTORY</h1>
+        </div>
+        <div>
+            <ul id="matchList">
+                <li id="defaultItem"></li>
+            </ul>
+        </div>
+
+    </section>
+
+    <script src="assets/script/script.js"></script>
+</body>
+</html>
